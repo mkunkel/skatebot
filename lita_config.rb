@@ -31,4 +31,10 @@ Lita.configure do |config|
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+
+  Lita.configure do |config|
+    config.handlers.ping_me.urls = ["http://www.nashvillerollergirls.com"]
+    config.handlers.ping_me.room = 'C032J7WLQ'
+    config.handlers.ping_me.frequency = 10
+  end
 end

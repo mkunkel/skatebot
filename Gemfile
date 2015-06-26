@@ -13,3 +13,4 @@ gem "lita-slack"
 # For example:
 # gem "lita-google-images"
 # gem "lita-karma"
+gem 'lita-ping-me'
